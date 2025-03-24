@@ -93,13 +93,10 @@ const generateRow = () => {
   row.push('');
   row.push('');
 
-  console.log(row.length);
-  console.log(row.join(','));
-
   return row.map((x) => x.replaceAll(',', '')).join(',');
 };
 
-const NUM_ROWS = 1000;
+const NUM_ROWS = 100;
 
 const out = [columns];
 
